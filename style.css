@@ -11,10 +11,14 @@ body {
     height: 550px;
 }
 
+/* Turn.js için gerekli */
 .page {
     background: #fff9f3;
     padding: 35px;
     box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.15);
 }
 
 .cover-page {
@@ -51,6 +55,7 @@ body {
 .photo-frame img {
     width: 100%;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .text {
