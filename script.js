@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function () {
+$(window).ready(function () {
     $("#book").turn({
         width: 900,
         height: 600,
         autoCenter: true,
         elevation: 50,
         gradients: true,
-        duration: 1000
+        duration: 1200
     });
 });
