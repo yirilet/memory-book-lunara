@@ -1,0 +1,60 @@
+body {
+    background: #f7efe5;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Georgia";
+}
+
+#book {
+    width: 800px;
+    height: 550px;
+}
+
+.page {
+    background: #fff9f3;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.cover-page {
+    background: linear-gradient(135deg, #b14a60, #e88aa6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-page h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.cover-page h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.romantic-page .inner {
+    text-align: center;
+}
+
+.photo-frame {
+    width: 80%;
+    margin: 0 auto 25px auto;
+    padding: 12px;
+    border: 2px solid #b14a60;
+    border-radius: 12px;
+}
+
+.photo-frame img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 22px;
+    color: #a14d5a;
+    line-height: 1.4;
+}
