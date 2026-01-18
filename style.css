@@ -7,11 +7,11 @@ body {
 }
 
 #book {
-    width: 800px;
-    height: 550px;
+    width: 900px;
+    height: 600px;
 }
 
-/* Turn.js için gerekli */
+/* Turn.js sayfaları */
 .page {
     background: #fff9f3;
     padding: 35px;
